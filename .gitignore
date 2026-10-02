@@ -1,0 +1,17 @@
+# Hide real backend secrets
+backend/src/main/resources/application.properties
+
+# Node dependencies & builds
+node_modules/
+dist/
+*.log
+
+# Backend Maven build files
+backend/target/
+*.class
+
+# IDE & temporary files
+.vscode/
+.idea/
+.DS_Store
+New Text Document.txt
